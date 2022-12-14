@@ -1,0 +1,70 @@
+@charset " utf-8";
+@keyframes fundoanimado{
+    0%{
+     background-position: 0 0, 0 0;
+     }
+     100%{
+         background-position: 100 0, 100 0;
+     }
+    }
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(imagens/fundo1.png);
+    background-size: cover;
+    background-repeat: repeat-x,repeat-x;
+    animation: fundoanimado 20S linear infinite;
+}
+main{
+    height: 100vh;
+    position: relative;
+   
+  
+}
+.imgp1{
+    height: 410px;
+    width: 800px;
+    position: absolute;
+    top:50%;
+    left:50%;
+transform:translate(-50%,-80%);
+    background: url(imagens/p1.png.png) no-repeat;  
+}
+.imgp234{
+    position: absolute;
+    top:65%;
+  left:50%;
+transform:translate(-80%,-5%);
+}
+.imgp234 img{
+  width: 150px;
+  padding: 10px;
+  position:relative ;
+  top:65%;
+  left:50%;
+transform:translate(-60%,-5%);
+}
+.p2{
+    transition: width 1s, heigth 1s;
+}
+.p2:hover{
+    width: 149px;
+    height: 150px;
+}
+.p3{
+    transition: width 1s, heigth 1s;
+}
+.p3:hover{
+    width: 149px;
+    height: 150px;
+}
+.p4{
+    transition: width 1s, heigth 1s;
+}
+.p4:hover{
+    width: 149px;
+    height: 150px;
+}
+
